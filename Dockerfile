@@ -8,4 +8,4 @@ RUN npm install && npm cache clean --force
 
 ENV PORT 5001
 EXPOSE 5001
-CMD [ "npm", "start" ]
+CMD [ "npm", "run build" ]
